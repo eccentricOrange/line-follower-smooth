@@ -20,7 +20,7 @@ uint8_t directionPins[] = {
     3   // Right motor backward
 };
 
-uint8_t PWMPins[] = {
+uint8_t speedPins[] = {
     10, // Left motor speed
     11  // Right motor speed
 };
@@ -31,7 +31,7 @@ uint8_t sensorPins[] = {
     9   // Right sensor
 };
 
-ForwardDDBot bot(directionPins, PWMPins, 255, 0.25);
+ForwardDDBot bot(directionPins, speedPins, 255, 0.25);
 byte sensorValues;
 
 void setup() {
