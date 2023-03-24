@@ -1,4 +1,4 @@
-# # A basic line follower
+# A basic line follower marginally improved
 
 This code for a line follower is an improvement on my [previous line follower code](https://github.com/eccentricOrange/line-follower-std).
 
